@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 16, 26, 0.98);;
+}
+
+/*.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+
+}
+
+.logo{
+    padding: 10px;
+    color: #FFF;
+} 
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+    
+  }
+  
+  li {
+    margin: 5px; 
+  }
+  */
+
+  .header {
+    display: flex; /* Use Flexbox */
+    justify-content: space-between; /* Distribute items evenly along the main axis (horizontally) */
+    align-items: center; /* Center items vertically */
+    padding: 15px 20px; /* Add padding as needed */
+    color: white; /* Set text color */
+    flex-wrap: wrap;
+  }
+  
+  .menu {
+    display: flex; /* Use Flexbox for the menu */
+    align-items: center; /* Center menu items vertically */
+    flex-wrap: wrap;
+    
+
+  }
+  
+  .logo {
+    font-size: 24px; /* Adjust the size of your logo */
+    margin-right: 100px; /* Add spacing between the logo and menu */
+    padding: 10px 10px 0px 50px;
+    font-family: 'Kumar One', cursive;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .menu ul {
+    list-style: none; /* Remove default list bullets */
+    padding: 0; /* Remove default list padding */
+    margin: 0; /* Remove default list margin */
+    display: flex; /* Use Flexbox for the list */
+    gap: 40px; /* Add spacing between menu items */
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .menu a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #FFF;
+    font-family: Hind;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-wrap: wrap;
+  }
+  
+  .search {
+    display: flex; /* Use Flexbox for the search box */
+    gap: 10px; /* Add spacing between input and button */
+    flex-wrap: wrap;
+  }
+  
+  .search input {
+    padding: 5px; /* Adjust padding as needed */
+    width: 300px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    border: 1px solid rgba(97, 97, 97, 0.54);
+    background: rgba(217, 217, 217, 0.00);
+    color: #FFF;
+    font-family: hind;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .action {
+    display: flex; /* Use Flexbox for the action section */
+    gap: 50px; /* Add spacing between elements */
+    align-items: center;
+    margin-right: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .action a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #FFF;
+    font-family: Hind;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .btn-primary {
+    border: none; /* Remove button border */
+    padding: 5px 10px; /* Adjust padding as needed */
+    cursor: pointer; /* Change cursor on hover */
+    color: #FFF;
+    font-family: Hind;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 88px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #29CC00;
+  }
+
+  hr{
+    background: rgba(97, 97, 97, 0.54);
+    border: none;
+    height: 1px;
+  }
+  
+  .search {
+    position: relative;
+}
+
+/* Style the icon */
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+/* Style the input field */
+.search-input {
+    padding-left: 30px; /* Ensure enough space for the icon */
+}
+  a:hover {
+    color: #ff5733; /* Change link color on hover */
+  }
+
+  .main-container{
+    display: flex;
+    align-items: center;
+  }
+
+  .container{
+   
+    align-items: center;
+    padding: 15px 20px;
+  }
+
+  .courses{
+    font-family: 'Karla', sans-serif;
+    color: #FFF;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .power{
+    font-family: 'Poppins', sans-serif;
+    color: #dadada;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
