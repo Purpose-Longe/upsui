@@ -8,33 +8,6 @@ body{
     background-color: rgba(0, 16, 26, 0.98);;
 }
 
-/*.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu{
-
-}
-
-.logo{
-    padding: 10px;
-    color: #FFF;
-} 
-
-ul {
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0;
-    
-  }
-  
-  li {
-    margin: 5px; 
-  }
-  */
-
   .header {
     display: flex; /* Use Flexbox */
     justify-content: space-between; /* Distribute items evenly along the main axis (horizontally) */
@@ -48,8 +21,6 @@ ul {
     display: flex; /* Use Flexbox for the menu */
     align-items: center; /* Center menu items vertically */
     flex-wrap: wrap;
-    
-
   }
   
   .logo {
@@ -187,7 +158,6 @@ ul {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    
   }
   
   .power{
@@ -198,7 +168,6 @@ ul {
     font-weight: 400;
     line-height: normal;
     margin-top: 20px;
-    
   }
 
   .btn-courses{
@@ -218,6 +187,7 @@ ul {
     font-weight: 700;
     line-height: normal;
     margin-right: 10px;
+    border: none;
   }
 
   .story{
@@ -241,17 +211,68 @@ ul {
     padding: none;
     margin-right: 0;
     width: 900px;
-    
-  
-   
-    
   }
 
   img{
     max-width: 100%;
     height: auto;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-top: 0px;
-    
-    
   }
+
+  .hero-section {
+    background-color:  #F4F4F4;
+  }
+
+  .top-course{
+  display: flex;
+  padding: 60px 100px;
+  margin-bottom: 2px;
+  }
+
+  .top-course p{
+    color: #000;
+    font-family: Karla;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  p span{
+    color: #29CC00;
+    font-family: Karla;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .top-course a{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .card-container{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 90px;
+  }
+
+  .row {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    width: calc(31% - 10px);
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 13px;
+    height: 208px;
+    flex-shrink: 0;
+    padding: 20px;
+    align-items: center;
+    margin-right: 70px;
+  }
+
